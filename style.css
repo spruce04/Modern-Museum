@@ -49,3 +49,12 @@ body {
     justify-content: center;
     margin-top: auto;
 }
+
+.content {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-size: 20px;
+}
