@@ -62,3 +62,14 @@ body {
     margin-top: auto;
     font-size: 20px;
 }
+
+button {
+   width: 66px; 
+   background-color: #AA151B;
+   color: #F1BF00;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+}
