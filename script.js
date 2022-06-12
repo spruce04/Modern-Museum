@@ -37,51 +37,60 @@ function textDecide() {
       content.innerHTML = `A far right party backed by Italy won the Spanish general elections. Unrest and political tensions spiralled in Spain.`;
       break;
     case ('10'):
-      content.innerHTML = `The Popular Front, a coalition of left-wing parties, won the majority of seats in the Spanish election. Anarchy grew rapidly, and The Popular Front was unable to control it. Franco had never aligned himself with a political party, and appealed to the government to enforce a state of emergency. They refused, and he was sent to the Canary Islands. Right-wing military leaders began plotting rebellion, and the leader was assassinated. Franco initially resisted joining, but seeing the growing anarchy in Spain, he eventually gives in, and the Spanish Civil War beganin North Africa. Various world powers, such as Portugal, Germany, Italy and USSR made “non-intervention” agreements however the agreements were not followed. General Franco was formally given the title of Caudillo as the leader of the Nationalists (rebels).`;
+      content.innerHTML = `The Popular Front, a coalition of left-wing parties, won the majority of seats in the Spanish election. Anarchy grew rapidly, and The Popular Front was unable to control it. Franco had never aligned himself with a political party, and appealed to the government to enforce a state of emergency. They refused, and he was sent to the Canary Islands.`;
       break;
     case ('11'):
-      content.innerHTML = `The civil war raged throughout Spain, with the USSR and France allying with the Republicans, and Germany and Italy allying with Franco's nationalists.`;
+      content.innerHTML = 'Right-wing military leaders began plotting rebellion, and the leader was assassinated. Franco initially resisted joining, but seeing the growing anarchy in Spain, he eventually gave in, and the Spanish Civil War began in North Africa. Various world powers, such as Portugal, Germany, Italy and USSR made “non-intervention” agreements however the agreements were not followed. General Franco was formally given the title of Caudillo as the leader of the Nationalists (rebels).';
       break;
     case ('12'):
-      content.innerHTML = `The battle of the Ebro, the longest and largest battle of the war, resulted in victopry for Franco. Spanish media was put under censorship.`;
+      content.innerHTML = `The civil war raged throughout Spain, with the USSR and France allying with the Republicans, and Germany and Italy allying with Franco's nationalists.`;
       break;
     case ('13'):
-      content.innerHTML = `Barcelona and Madrid were captured by Nationalist forces. The civil war ended and the Falange became the sole party of Spain, with Franco as leader. World War 2 began.`;
+      content.innerHTML = `The battle of the Ebro, the longest and largest battle of the war, resulted in victory for Franco. Spanish media was put under censorship.`;
       break;
     case ('14'):
-      content.innerHTML = `After the fall of France, Franco indicated willingness to bring Spain into the war on Germany’s side, however, an agreement was never reached.`;
+      content.innerHTML = `Barcelona and Madrid were captured by Nationalist forces. The civil war ended and the Falange became the sole party of Spain, with Franco as leader. Spain faced poor economic conditions. World War 2 began.`;
       break;
     case ('15'):
-      content.innerHTML = `Spain returned to complete neutrality, however, it was too late in the war to gain any favours from the allied victors.`;
+      content.innerHTML = `After the fall of France, Franco indicated willingness to bring Spain into the war on Germany’s side, however, an agreement was never reached.`;
       break;
     case ('16'):
-      content.innerHTML = `The UN security council denied Franco’s regime recognition until it developed a representative government.`;
+      content.innerHTML = `Spain returned to complete neutrality, however, it was too late in the war to gain any favours from the allied victors.`;
       break;
     case ('17'):
-      content.innerHTML = `A referendum made Spain a monarchy, and Franco sovereign for life, with the sole responsibility of appointing a successor.`;
+      content.innerHTML = `The UN security council denied Franco’s regime recognition until it developed a representative government.`;
       break;
     case ('18'):
-      content.innerHTML = `Franco began forming stronger relations with other countries.`;
+      content.innerHTML = `A referendum made Spain a monarchy, and Franco sovereign for life, with the sole responsibility of appointing a successor.`;
       break;
     case ('19'):
-      content.innerHTML = `Spain signed a 10 year military assistance pact with the United States.`;
+      content.innerHTML = `Franco began forming stronger relations with other countries.`;
       break;
     case ('20'):
-      content.innerHTML = `A referendum was held which approved a new constitution, limiting and defining Franco’s powers.`;
+      content.innerHTML = `In light of the cold war, Spain signed a 10 year military assistance pact with the United States.`;
       break;
     case ('21'):
-      content.innerHTML = `Franco opened elections for a small minority of deputies to parliament.`;
+      content.innerHTML = 'Spain was admitted into the United Nations.'
       break;
     case ('22'):
-      content.innerHTML = `Franco assigned 32 year old Juan Carlos (the grandson of the last Spanish king) as the next to take the Spanish throne. `;
+      content.innerHTML = 'Spain’s economy began to rapidly recover as a result of Spain transitioning from an autarky to a market economy, leading to private investment, and Spain opening itself as a tourist destination. This time period also marked the steady decline of totalitarianism in Spain.';
       break;
     case ('23'):
-      content.innerHTML = `Franco resigned as ‘premier’ but still retained his titles as head of state, commander of armed forces, and head of the ‘movement’.`;
+      content.innerHTML = `A referendum was held which approved a new constitution, limiting and defining Franco’s powers.`;
       break;
     case ('24'):
-      content.innerHTML = `Death of Francisco Franco. Juan Carlos takes the throne.`;
+      content.innerHTML = `Franco opened elections for a small minority of deputies to parliament.`;
       break;
     case ('25'):
+      content.innerHTML = `Franco assigned 32 year old Juan Carlos (the grandson of the last Spanish king) as the next to take the Spanish throne. `;
+      break;
+    case ('26'):
+      content.innerHTML = `Franco resigned as ‘premier’ but still retained his titles as head of state, commander of armed forces, and head of the ‘movement’.`;
+      break;
+    case ('27'):
+      content.innerHTML = `Death of Francisco Franco. Juan Carlos takes the throne.`;
+      break;
+    case ('28'):
       content.innerHTML = `Spain completed its transition to a democratic government. The era of Franco's regime had ended.`;
       break;
 }}; 
@@ -130,36 +139,42 @@ function year(param){
     case ('9'):
       return '1933';
     case ('10'):
-      return '1936';
+      return '1936 part 1';
     case ('11'):
-      return '1937';
+      return '1936 part 2'
     case ('12'):
-      return '1938';
+      return '1937';
     case ('13'):
-      return '1939';
+      return '1938';
     case ('14'):
-      return '1940';
+      return '1939';
     case ('15'):
-      return '1943';
+      return '1940';
     case ('16'):
-      return '1946';
+      return '1943';
     case ('17'):
-      return '1947';
+      return '1946';
     case ('18'):
-      return '1948';
+      return '1947';
     case ('19'):
-      return '1952';
+      return '1948';
     case ('20'):
-      return '1966';
+      return '1952';
     case ('21'):
-      return '1967';
+      return '1955';
     case ('22'):
-      return '1969';
+      return '1959';
     case ('23'):
-      return '1973';
+      return '1966';
     case ('24'):
-      return '1975';
+      return '1967';
     case ('25'):
+      return '1969';
+    case ('26'):
+      return '1973';
+    case ('27'):
+      return '1975';
+    case ('28'):
       return '1977';
 }};
 

@@ -57,6 +57,7 @@ body {
 .content {
     padding: 8px;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: auto;
