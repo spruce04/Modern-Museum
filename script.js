@@ -108,7 +108,7 @@ function movePrevious() {
 
 //function to move forwards
 function moveNext() {
-  if (slider.value == 25) {
+  if (slider.value == 28) {
     return;
   }
   else {
